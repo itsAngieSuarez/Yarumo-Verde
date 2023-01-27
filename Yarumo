@@ -1,0 +1,106 @@
+<!--INICIO HTML-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Marketplace Verde</title>
+    <style>
+      
+      body {
+        background: #01B16A;
+      }
+      
+      .product-list {
+        margin: 0 auto;
+        width: 90%;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+      .product {
+        margin: 10px;
+        padding: 10px;
+        background: #7FFF2A;
+        width: calc(20% - 20px);
+        border-radius: 4px;
+        text-align: center;
+      }
+      
+      .product img {
+        width: 80%;
+      }
+      
+      .cart-button {
+        background: #FF6B00;
+        border: none;
+        padding: 10px;
+        color: #FFF;
+        font-weight: bold;
+        font-size: 1.2rem;
+        border-radius: 4px;
+        margin: 10px 0;
+        cursor: pointer;
+      }
+      
+      .cart-button:hover {
+        background: #FF9200;
+      }
+      
+      .navbar {
+        background: #01B16A;
+        display: flex;
+        justify-content: center;
+      }
+      
+      .navbar a {
+        color: #FFF;
+        font-size: 1.2rem;
+        padding: 10px;
+        margin: 10px;
+        text-decoration: none;
+      }
+      
+      .navbar a:hover {
+        color: #FF6B00;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#">Inicio</a>
+      <a href="#">Productos</a>
+      <a href="#">Carrito</a>
+      <a href="#">Contacto</a>
+    </div>
+    <h1>Marketplace Verde</h1>
+    <div class="product-list">
+      <div class="product">
+        <img src="https://placehold.it/200x200" />
+        <h3>Producto 1</h3>
+        <h4>$20</h4>
+        <button class="cart-button">Agregar al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="https://placehold.it/200x200" />
+        <h3>Producto 2</h3>
+        <h4>$20</h4>
+        <button class="cart-button">Agregar al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="https://placehold.it/200x200" />
+        <h3>Producto 3</h3>
+        <h4>$20</h4>
+        <button class="cart-button">Agregar al Carrito</button>
+      </div>
+      <div class="product">
+        <img src="https://placehold.it/200x200" />
+        <h3>Producto 4</h3>
+        <h4>$20</h4>
+        <button class="cart-button">Agregar al Carrito</button>
+      </div>
+    </div>
+  </body>
+</html>
+<!--FIN HTML-->
